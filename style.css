@@ -2,7 +2,7 @@ html {
     font-size: 16px;
 }
 body {
-    background-image: url('/image/background.png');
+    background-image: url('./image/background.png');
     background-repeat:no-repeat;
     background-position: right;
     background-size: cover;
@@ -111,7 +111,7 @@ nav {
     align-items: flex-end;
     flex-direction: column;
     height: 720px;
-    background-image: url('/image/JF-banner.png');
+    background-image: url('./image/JF-banner.png');
     background-repeat: no-repeat;
     background-position:top;
     background-size:cover;
