@@ -165,7 +165,7 @@ nav {
     height: auto;
     padding: 20px 0;
     background-color: #fcca00;
-    gap: 15px;
+    gap: 40px;
     padding: 2% 8% 2%;
 }
 
@@ -208,7 +208,6 @@ nav {
 .other_programs {
     height: auto;
     background-color: #ffe98f;
-
 }
 
 .links_text {
@@ -221,11 +220,10 @@ nav {
     flex-direction: column;
     align-items: center;
     width: fit-content;
-    
     gap: 20px;
 }
 
-.links_other_programs a img {
+.links_other_programs a {
     width: 100%;
 }
 
@@ -237,6 +235,20 @@ nav {
 
 .links_other_programs h4 {
     color: #033354;
+}
+
+@media only screen and (max-width: 768px) {
+    .links_other_programs {
+        width: 47%;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .links_other_programs p {
+        font-size: .8em;
+        text-align: justify;
+        width: 95%;
+    }
 }
 
 .contacts {
