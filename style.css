@@ -34,7 +34,6 @@ h2 {
     text-align: center;
     background-color: rgb(3 51 84 / 80%);
     padding:  20px;
-    margin-top: 40px;
     border-radius: 10px;
 }
 
@@ -165,7 +164,7 @@ nav {
     height: auto;
     padding: 20px 0;
     background-color: #fcca00;
-    gap: 40px;
+    gap: 20px;
     padding: 2% 8% 2%;
 }
 
@@ -249,6 +248,21 @@ nav {
         text-align: justify;
         width: 95%;
     }
+
+    .links_other_programs p {
+        text-align: center;
+    }
+
+    .links_other_programs h4 {
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding-top: 8px ;
+    }
+}
+
+footer {
+    margin-top: 20px;
 }
 
 .contacts {
