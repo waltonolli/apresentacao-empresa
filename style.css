@@ -14,7 +14,7 @@ body {
 
 a:hover {
     cursor: pointer;
-    background-color: rgb(255 204 0 / 50%);
+    filter: drop-shadow(2px 2px 3px black);
     border-radius: 10px;
 }
 
@@ -262,10 +262,10 @@ nav {
     gap: 20px;
 }
 
-.social_media a:hover {
+/* .social_media a:hover {
     border-radius: 100%;
     background-color: black;
-}
+} */
 
 @media only screen and (max-width: 480px) {
     .social_media {
